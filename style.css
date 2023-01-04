@@ -1,3 +1,20 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 img {
   width: 100%;
+}
+
+.body {
+  background-color: black;
+}
+
+.body_yellow {
+  background-color: #f2cb05;
+}
+
+.body_orange {
+  background-color: #f8a408;
 }
