@@ -53,3 +53,14 @@ img {
 .om_mig_billede {
   width: 600px;
 }
+
+h1 {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+}
