@@ -14,6 +14,8 @@ main {
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
 }
 
 img {
@@ -63,4 +65,8 @@ h1 {
 h2 {
   font-family: "Open Sans", sans-serif;
   font-family: "Playfair Display", serif;
+}
+
+p {
+  font-size: 1rem;
 }
