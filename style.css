@@ -3,6 +3,19 @@ main {
   margin: 0 auto;
 }
 
+.navibar {
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
 img {
   width: 100%;
 }
@@ -17,4 +30,26 @@ img {
 
 .body_orange {
   background-color: #f8a408;
+}
+
+.headerbillede {
+  align-items: center;
+  padding-top: 90px;
+}
+
+.forside_tekst {
+  text-align: center;
+}
+
+.om_mig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.om_mig_tekst {
+  padding: 20px;
+}
+
+.om_mig_billede {
+  width: 600px;
 }
