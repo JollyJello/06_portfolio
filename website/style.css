@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navibar {
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.f6 {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ea3d13;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.f5 {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #bcefa4;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.f4 {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #6d49f2;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.f3 {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #57bf26;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.f1 {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #498af2;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.f_om_mig {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #498af2;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2055c;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.body_yellow {
+  background-color: #f2cb05;
+}
+
+.body_orange {
+  background-color: #f8a408;
+}
+
+.headerbillede {
+  align-items: center;
+  padding-top: 90px;
+}
+
+.forside_tekst {
+  text-align: center;
+}
+
+.om_mig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.om_mig_tekst {
+  padding: 20px;
+}
+
+.om_mig_billede {
+  width: 600px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.topbillede {
+  width: 100%;
+  width: 400px;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+.topbillede1 {
+  width: 100%;
+  width: 500px;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.bottombillede {
+  margin-left: 90px;
+  width: 600px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+}
+
+a:hover {
+  font-size: 2-rem;
+  font-family: Helvetica, sans-serif;
+}
