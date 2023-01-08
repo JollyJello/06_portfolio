@@ -70,7 +70,7 @@ main {
 .f_om_mig {
   margin: 0 auto;
   padding: 20px;
-  background-color: #6d49f2;
+  background-color: #498af2;
   max-width: 1200px;
   width: 100%;
   text-align: center;
@@ -160,12 +160,12 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 
-p,
-a {
+p {
   font-size: 1rem;
   font-family: Helvetica, sans-serif;
 }
 
 a:hover {
-  font-family: "Playfair Display", serif;
+  font-size: 2-rem;
+  font-family: Helvetica, sans-serif;
 }
