@@ -134,6 +134,7 @@ body {
 
 .topbillede {
   width: 400px;
+  margin-top: 50px;
   padding-left: 30px;
 }
 
@@ -159,7 +160,12 @@ h2 {
   font-family: "Playfair Display", serif;
 }
 
-p {
+p,
+a {
   font-size: 1rem;
   font-family: Helvetica, sans-serif;
+}
+
+a:hover {
+  font-family: "Playfair Display", serif;
 }
