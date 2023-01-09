@@ -15,11 +15,37 @@ main {
   padding: 10px;
   width: 100%;
   display: flex;
+  justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
+  gap: 60px;
   font-family: Helvetica, sans-serif;
   font-size: 2rem;
+}
+
+a:hover {
+  font-size: 2-rem;
+  font-family: Helvetica, sans-serif;
+  color: #498af2;
+}
+
+a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: block;
+  color: #498af2;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .f6 {
@@ -79,10 +105,10 @@ main {
 footer {
   margin: 0 auto;
   padding: 20px;
-  background-color: #f2055c;
   max-width: 1200px;
   width: 100%;
   text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
 img {
@@ -168,16 +194,6 @@ p {
   margin-left: 20px;
   font-size: 1.25rem;
   font-family: Helvetica, sans-serif;
-}
-
-a:hover {
-  font-size: 2-rem;
-  font-family: Helvetica, sans-serif;
-}
-
-a {
-  margin-left: 20px;
-  text-decoration: none;
 }
 
 .om_mig {
