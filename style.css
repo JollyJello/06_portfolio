@@ -123,8 +123,8 @@ body {
   padding-bottom: 50px;
 }
 
-/* .topbillede {
-  width: 80%;
+.topbillede {
+  width: 300px;
   margin-top: 50px;
   padding-left: 30px;
 }
@@ -137,7 +137,7 @@ body {
 
 .bottombillede {
   margin: 46px;
-  width: 600px;
+  width: 500px;
   padding-bottom: 20px;
 }
 
@@ -146,10 +146,11 @@ body {
   width: 100%;
   padding-right: 90px;
   padding-bottom: 20px;
-} */
+}
 
 h1 {
   margin-top: 50px;
+  margin-left: 20px;
   font-size: 2rem;
   font-family: "Open Sans", sans-serif;
   font-family: "Playfair Display", serif;
@@ -157,11 +158,14 @@ h1 {
 
 h2 {
   margin-top: 56px;
+  margin-left: 20px;
+  margin-bottom: -15px;
   font-family: "Open Sans", sans-serif;
   font-family: "Playfair Display", serif;
 }
 
 p {
+  margin-left: 20px;
   font-size: 1.25rem;
   font-family: Helvetica, sans-serif;
 }
@@ -169,6 +173,10 @@ p {
 a:hover {
   font-size: 2-rem;
   font-family: Helvetica, sans-serif;
+}
+
+a {
+  margin-left: 20px;
 }
 
 .om_mig {
@@ -196,10 +204,12 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+
   .top {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .topbillede {
     width: 400px;
     margin-top: 50px;
@@ -211,6 +221,13 @@ a:hover {
     margin-top: 50px;
     padding-left: 30px;
   }
+
+  .bottombillede {
+    margin: 46px;
+    width: 600px;
+    padding-bottom: 20px;
+  }
+
   .bottom_billede_solo {
     margin: 34px;
     width: 100%;
