@@ -52,6 +52,14 @@ main {
   text-align: center;
 }
 
+.f2 {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2055c;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
 .f_om_mig {
   margin: 0 auto;
   padding: 20px;
@@ -105,43 +113,42 @@ body {
 
 .toptekst {
   margin-left: 25px;
-  margin-top: -450px;
 }
-.toptekst_t2 {
+
+.bottomtekst {
+  margin-left: 25px;
+  margin-top: 75px;
+}
+
+/* .toptekst_t2 {
   margin-top: -220px;
+  margin-left: 25px;
 }
 
 .toptekst_t5 {
   margin-left: 25px;
   margin-top: -450px;
-}
+} */
 
 .om_mig_billede {
-  width: 600px;
   padding-bottom: 50px;
 }
 
 .topbillede {
-  width: 300px;
   margin-top: 50px;
-  padding-left: 30px;
 }
 
 .topbillede1 {
-  width: 80%;
   margin-top: 50px;
-  padding-left: 30px;
 }
 
 .bottombillede {
   margin: 46px;
-  width: 500px;
   padding-bottom: 20px;
 }
 
 .bottom_billede_solo {
   margin: 34px;
-  width: 100%;
   padding-right: 90px;
   padding-bottom: 20px;
 }
@@ -155,9 +162,8 @@ h1 {
 }
 
 h2 {
-  margin-top: 56px;
   margin-left: 20px;
-  margin-bottom: -15px;
+  margin-bottom: -10px;
   font-family: "Open Sans", sans-serif;
   font-family: "Playfair Display", serif;
 }
@@ -180,7 +186,6 @@ p {
 .top {
   display: grid;
   grid-template-rows: 1fr;
-  align-items: center;
 }
 
 .links {
@@ -209,27 +214,24 @@ a {
   }
 
   .topbillede {
-    width: 400px;
-    margin-top: 50px;
     padding-left: 30px;
   }
 
   .topbillede1 {
-    width: 500px;
-    margin-top: 50px;
     padding-left: 30px;
+  }
+
+  .toptekst {
+    padding-top: 25px;
   }
 
   .bottombillede {
     margin: 46px;
-    margin-left: 100px;
-    width: 600px;
     padding-bottom: 20px;
   }
 
   .bottom_billede_solo {
     margin: 34px;
-    width: 100%;
     padding-right: 90px;
     padding-bottom: 20px;
   }
