@@ -7,47 +7,6 @@ main {
   margin: 0 auto;
 }
 
-.navibar {
-  justify-content: flex-end;
-  position: sticky;
-  top: 0;
-  left: 0;
-  padding: 10px;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-items: center;
-  gap: 60px;
-  font-family: Helvetica, sans-serif;
-  font-size: 2rem;
-}
-
-a:hover {
-  font-size: 2-rem;
-  font-family: Helvetica, sans-serif;
-  color: #498af2;
-}
-
-a {
-  margin-left: 20px;
-  text-decoration: none;
-}
-
-.hamburger {
-  display: block;
-  color: #498af2;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
 .f6 {
   margin: 0 auto;
   padding: 20px;
@@ -145,7 +104,16 @@ body {
 }
 
 .toptekst {
-  margin-left: 66px;
+  margin-left: 25px;
+  margin-top: -450px;
+}
+.toptekst_t2 {
+  margin-top: -220px;
+}
+
+.toptekst_t5 {
+  margin-left: 25px;
+  margin-top: -450px;
 }
 
 .om_mig_billede {
@@ -217,6 +185,11 @@ p {
 
 .links {
   width: 140%;
+}
+
+a {
+  font-family: Helvetica, sans-serif;
+  margin-left: 20px;
 }
 
 @media (min-width: 700px) {
